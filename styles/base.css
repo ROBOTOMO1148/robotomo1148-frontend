@@ -1,0 +1,16 @@
+html {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 62.5%;
+}
+
+a {
+    color: #333;
+}
+
+a img {
+    transition: opacity .2s ease-in-out;
+}
+
+a img:hover {
+    opacity: .75;
+}
