@@ -120,7 +120,7 @@ const HomePage: FC = () => {
                 position: relative;
                 bottom: -4rem;
                 display: block;
-                background: #f5eb11;
+                background: rgba(240, 162, 2, .4);
                 padding: 30px 35px 25px 35px;
                 transform: rotate(5deg);
                 box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
@@ -136,13 +136,13 @@ const HomePage: FC = () => {
                 display: block;
                 transform: rotate(-5deg);
                 font-size: 1.8rem;
-                font-weight: 700;
+                font-weight: 600;
                 transition: color .2s ease-in-out;
                 color: #444;
             }
             
             .news__inner {
-                background: #f39d39;
+                background: #F0A202;
                 padding: 30px 35px 25px 40px;
                 font-size: 1.2rem;
                 color: #fff;
