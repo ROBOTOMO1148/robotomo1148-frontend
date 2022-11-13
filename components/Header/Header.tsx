@@ -6,7 +6,7 @@ export default function Header() {
         <header className='header'>
             <div className='logo'>
                 <Link href='/'>
-                    <Image src='/logo.svg' width='220' height='50' alt='ROBOTOMO1148' />
+                    <Image src='/logo.svg' width='236' height='65' alt='ROBOTOMO1148' />
                 </Link>
             </div>
             <nav>
@@ -19,14 +19,15 @@ export default function Header() {
             </nav>
             <style jsx>{`
                 .header {
-                    padding: 10px 22px 0;
+                    padding: 10px 22px;
                     display: flex;
                     align-items: center;
                     justify-content: space-between;
+                    // background: rgba(255, 255, 255, .8);
                 }
                 
                 .logo {
-                    max-width: 220px;
+                    max-width: 236px;
                 }
                 
                 .nav {

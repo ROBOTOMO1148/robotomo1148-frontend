@@ -9,6 +9,7 @@ export default function Footer() {
             </footer>
             <style jsx>{`
             .footer {
+                background: #fefefe;
                 padding: 0 22px 10px;
                 width: 100%;
                 text-align: right;
