@@ -14,6 +14,7 @@ export default function Header() {
                     <li className='nav__item'><Link href='/profile'>Profile</Link></li>
                     <li className='nav__item'><Link href='/gamelog'>GameLog</Link></li>
                     <li className='nav__item'><Link href='/photos'><s>Photos</s></Link></li>
+                    <li className='nav__item'><Link href='/goods'><s>Goods</s></Link></li>
                 </ul>
             </nav>
             <style jsx>{`

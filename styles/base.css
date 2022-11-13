@@ -1,6 +1,8 @@
 html {
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 62.5%;
+    background: #fefefe;
+    color: #333;
 }
 
 a {
@@ -13,4 +15,24 @@ a img {
 
 a img:hover {
     opacity: .75;
+}
+
+
+.page {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.page > div {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.page > div > .main {
+    position: relative;
+    padding: 0 22px;
+    flex-grow: 1;
 }
