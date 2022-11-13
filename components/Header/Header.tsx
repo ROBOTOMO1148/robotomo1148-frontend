@@ -6,15 +6,15 @@ export default function Header() {
         <header className='header'>
             <div className='logo'>
                 <Link href='/'>
-                    <Image src='/logo.svg' width='236' height='65' alt='ROBOTOMO1148' />
+                    <Image className='logo__image' src='/logo.svg' width='236' height='65' alt='ROBOTOMO1148' />
                 </Link>
             </div>
             <nav>
                 <ul className='nav'>
-                    <li className='nav__item'><Link href='/profile'>Profile</Link></li>
-                    <li className='nav__item'><Link href='/gamelog'>GameLog</Link></li>
-                    <li className='nav__item'><Link href='/photos'><s>Photos</s></Link></li>
-                    <li className='nav__item'><Link href='/goods'><s>Goods</s></Link></li>
+                    <li className='nav__item'><Link className='nav__link' href='/profile'>Profile</Link></li>
+                    <li className='nav__item'><Link className='nav__link' href='/gamelog'>GameLog</Link></li>
+                    <li className='nav__item'><Link className='nav__link' href='/photos'><s>Photos</s></Link></li>
+                    <li className='nav__item'><Link className='nav__link' href='/goods'><s>Goods</s></Link></li>
                 </ul>
             </nav>
             <style jsx>{`
@@ -30,6 +30,10 @@ export default function Header() {
                     max-width: 236px;
                 }
                 
+                .logo__image {
+                    filter: drop-shadow(0 2px 5px rgba(0, 0, 0, .4));
+                }
+                
                 .nav {
                     margin: 0;
                     padding: 0;
@@ -42,6 +46,10 @@ export default function Header() {
                     margin-left: 20px;
                     font-size: 1.4rem;
                     list-style: none;
+                }
+                
+                .nav__link {
+                    color: #fff;
                 }
                 
                 a {
