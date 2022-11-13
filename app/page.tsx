@@ -75,7 +75,7 @@ const HomePage: FC = () => {
                 vertical-align: bottom;
                 width: 100%;
                 height: auto;
-                filter: drop-shadow(0 -5px 3px rgba(0, 0, 0, .2));
+                filter: drop-shadow(3px -5px 3px rgba(2, 183, 236, .35));
             }
             
             .socials ul {
