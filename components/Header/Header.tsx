@@ -13,8 +13,8 @@ export default function Header() {
                 <ul className='nav'>
                     <li className='nav__item'><Link className='nav__link' href='/profile'>Profile</Link></li>
                     <li className='nav__item'><Link className='nav__link' href='/gamelog'>GameLog</Link></li>
-                    <li className='nav__item'><Link className='nav__link' href='/photos'><s>Photos</s></Link></li>
-                    <li className='nav__item'><Link className='nav__link' href='/goods'><s>Goods</s></Link></li>
+                    <li className='nav__item'><Link className='nav__link' href='/photos'>Photos</Link></li>
+                    <li className='nav__item'><Link className='nav__link' href='/goods'>Goods</Link></li>
                 </ul>
             </nav>
             <style jsx>{`
